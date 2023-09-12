@@ -1,0 +1,16 @@
+com/training/pages/HomePage.class
+com/training/testcases/SFDC_Test.class
+com/training/pages/UserMenuDropDownPage.class
+com/training/pages/LeadsTabPage.class
+com/training/pages/CreateAccountPage.class
+com/training/testcases/OpportunityTabTest.class
+com/training/pages/OpportunityTabPage.class
+com/training/pages/UserMenuMySettingsPage.class
+com/training/testcases/UserMenuMySettingsTest.class
+com/training/testcases/HomeTest.class
+com/training/testcases/CreateAccountTest.class
+com/training/testcases/LoginTest.class
+com/training/testcases/LeadsTabTest.class
+com/training/pages/LoginPage.class
+com/training/testcases/UserMenuDropDownTest.class
+com/training/pages/SFDC_loginPage.class

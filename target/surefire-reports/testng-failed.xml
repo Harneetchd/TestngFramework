@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Salesforce]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.training.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="UserMenuDropDown(failed)" verbose="0">
+    <classes>
+      <class name="com.training.testcases.CreateAccountTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="mergeAccounts"/>
+          <include name="createAccountAndValidate"/>
+          <include name="createNewView"/>
+          <include name="teardown"/>
+          <include name="editView"/>
+        </methods>
+      </class> <!-- com.training.testcases.CreateAccountTest -->
+      <class name="com.training.testcases.UserMenuMySettingsTest">
+        <methods>
+          <include name="validateDeveloperConsole"/>
+          <include name="teardown"/>
+          <include name="emailsettings"/>
+          <include name="beforemethod"/>
+          <include name="logoutValidation"/>
+          <include name="usermenusettings"/>
+        </methods>
+      </class> <!-- com.training.testcases.UserMenuMySettingsTest -->
+      <class name="com.training.testcases.UserMenuDropDownTest">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="teardown"/>
+          <include name="usermenudropdown"/>
+        </methods>
+      </class> <!-- com.training.testcases.UserMenuDropDownTest -->
+      <class name="com.training.testcases.SFDC_Test">
+        <methods>
+          <include name="checkRememberMe"/>
+          <include name="beforeMethod"/>
+          <include name="loginSucess"/>
+          <include name="tearDown"/>
+          <include name="loginError"/>
+        </methods>
+      </class> <!-- com.training.testcases.SFDC_Test -->
+      <class name="com.training.testcases.LoginTest">
+        <methods>
+          <include name="loginandclickonhometab"/>
+          <include name="teardown"/>
+          <include name="beforemethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.training.testcases.LoginTest -->
+      <class name="com.training.testcases.LeadsTabTest">
+        <methods>
+          <include name="leadDefaultView"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="validateLeadTab"/>
+          <include name="leadSelectView"/>
+        </methods>
+      </class> <!-- com.training.testcases.LeadsTabTest -->
+      <class name="com.training.testcases.OpportunityTabTest">
+        <methods>
+          <include name="opportunityDropDownValidate"/>
+          <include name="quarterlySummary"/>
+          <include name="teardown"/>
+          <include name="beforeMethod"/>
+          <include name="stuckOpportunityReport"/>
+        </methods>
+      </class> <!-- com.training.testcases.OpportunityTabTest -->
+    </classes>
+  </test> <!-- UserMenuDropDown(failed) -->
+</suite> <!-- Failed suite [Salesforce] -->
