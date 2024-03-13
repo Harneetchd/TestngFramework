@@ -6,14 +6,15 @@
   </listeners>
   <test thread-count="5" name="UserMenuDropDown(failed)">
     <classes>
-      <class name="com.training.testcases.LoginTest">
+      <class name="com.training.testcases.SFDC_Test">
         <methods>
-          <include name="loginandclickonhometab"/>
-          <include name="teardown"/>
-          <include name="beforemethod"/>
-          <include name="login"/>
+          <include name="checkRememberMe"/>
+          <include name="beforeMethod"/>
+          <include name="loginSucess"/>
+          <include name="tearDown"/>
+          <include name="loginError"/>
         </methods>
-      </class> <!-- com.training.testcases.LoginTest -->
+      </class> <!-- com.training.testcases.SFDC_Test -->
     </classes>
   </test> <!-- UserMenuDropDown(failed) -->
 </suite> <!-- Failed suite [Salesforce] -->

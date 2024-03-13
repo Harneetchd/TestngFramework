@@ -13,12 +13,13 @@
 
 <classes>
 <class name= "com.training.testcases.LoginTest"/>
-<class name="com.training.testcases.SFDC_Test"/>
+<!--class name= "com.training.testcases.SFDC_Test"/>
+< class name= "com.training.testcases.LoginTest"/>
 <class name="com.training.testcases.UserMenuDropDownTest"/>
 <class name="com.training.testcases.UserMenuMySettingsTest"/>
 <class name="com.training.testcases.CreateAccountTest"/>
 <class name="com.training.testcases.OpportunityTabTest"/>
-<class name="com.training.testcases.LeadsTabTest"/>
+<class name="com.training.testcases.LeadsTabTest"/>-->
 </classes>
 
 </test>

@@ -30,6 +30,7 @@ public class SFDC_loginPage extends BasePage
 	@FindBy(id="userNav")
 	WebElement usermenu;
 	
+	
 	@FindBy(xpath="//a[text()='Logout']")
 	WebElement logout;
 	
@@ -48,7 +49,7 @@ public class SFDC_loginPage extends BasePage
 	}
 	public void enterIntoPassword()
 	{
-		enterpassword.sendKeys("benihina@1018");
+		enterpassword.sendKeys("hello@123");
 	}
 	public void checkrememberMe()
 	{

@@ -1,5 +1,6 @@
 package com.training.testcases;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -7,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.training.base.BaseTest;
@@ -25,9 +28,10 @@ public class LoginTest extends BaseTest
 	HomePage homepage;
 	
 	@BeforeMethod
-	public void beforemethod() throws IOException
+	@Parameters("browser")
+	public void beforemethod(@Optional("firefox") String browser) throws IOException
 	{
-		driver = getDriver("chrome"); 
+		driver = getDriver(browser); 
 		url = getUrl();
 		driver.get(url);
 		loginpage = new LoginPage(driver);
@@ -37,10 +41,11 @@ public class LoginTest extends BaseTest
 	}
 	// Test should contain  : Steps & Data
 	// Data can be taken from:
-	// 1) Proper ty Files; 2) Parameters from TestNg.xml; 3) Excel Sheets.
+	// 1) Property Files; 2) Parameters from TestNg.xml; 3) Excel Sheets.
 	@Test
 	public void login()
 	{
+		
 		Log.info("I am Logging in....");
 		loginpage.enterinemail();
 		loginpage.enterinpassword();

@@ -70,7 +70,7 @@ public class LeadsTabPage extends BasePage
 
 		public void enterinpassword()
 		{
-			password.sendKeys("benihina1018@");
+			password.sendKeys("Hello@123");
 		}
 		
 		public void clicklogin()

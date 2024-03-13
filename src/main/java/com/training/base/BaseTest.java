@@ -38,7 +38,7 @@ public class BaseTest
     
     public String getUrl() throws IOException
     {
-    	String url=commonutil.getProperty("salesforcelogin");
+    	String url=commonutil.getProperty("qaurl");
     	return url;
     }
     
@@ -70,5 +70,7 @@ public class BaseTest
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        
+        
     }
 }

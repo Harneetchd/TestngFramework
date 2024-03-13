@@ -61,7 +61,7 @@ public class OpportunityTabPage extends BasePage
 
 		public void enterinpassword()
 		{
-			password.sendKeys("benihina@1018");
+			password.sendKeys("Hello@123");
 		}
 		
 		public void clicklogin()
