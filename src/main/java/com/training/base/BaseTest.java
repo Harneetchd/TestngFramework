@@ -25,7 +25,8 @@ public class BaseTest
     {
     	if(browser.equalsIgnoreCase("chrome"))
 		{
-			WebDriverManager.chromedriver().setup();
+    		System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
+			//WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
     	else if(browser.equalsIgnoreCase("firefox"))
