@@ -49,7 +49,7 @@ public class SFDC_loginPage extends BasePage
 	}
 	public void enterIntoPassword()
 	{
-		enterpassword.sendKeys("hello@123");
+		enterpassword.sendKeys("Hello@1234");
 	}
 	public void checkrememberMe()
 	{

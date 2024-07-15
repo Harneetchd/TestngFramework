@@ -25,7 +25,7 @@ public class HomePage extends BasePage
 	
 	public void clickhometab()
 	{
-		explicitwait(5,hometab); 
+		explicitwait(500,hometab); 
 		hometab.click();// corresponding action
 	}
 	

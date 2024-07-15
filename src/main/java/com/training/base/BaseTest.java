@@ -2,6 +2,8 @@ package com.training.base;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -11,6 +13,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.training.utilities.CommonUtlities;
 
@@ -19,20 +24,37 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest 
 {
 	CommonUtlities commonutil = new CommonUtlities();//create an object of CommonUtilities
-	WebDriver driver;
+    WebDriver driver;
 	
-    public WebDriver getDriver(String browser)
+    public WebDriver getDriver(String browser) throws MalformedURLException
     {
     	if(browser.equalsIgnoreCase("chrome"))
 		{
+    		
+    		// DesiredCapabilities caps = new DesiredCapabilities();
+    		// caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+    		 
+    		 //caps.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
+    		 //caps.setCapability(CapabilityType.PLATFORM_NAME, "mac");
+    		 //caps.setCapability(CapabilityType.BROWSER_VERSION, false);
+    	
+    		 
+    		// driver = new RemoteWebDriver(new URL("http://3.145.8.31:4444/"),caps);
     		System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
-			//WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
     	else if(browser.equalsIgnoreCase("firefox"))
     	{
     		WebDriverManager.firefoxdriver().setup();
     		driver = new FirefoxDriver();
+    		
+    		// DesiredCapabilities caps = new DesiredCapabilities();
+    		 
+    		// caps.setCapability(CapabilityType.BROWSER_NAME, "firefox");
+    		 
+    		
+    		// driver = new RemoteWebDriver(new URL("http://3.145.8.31:4444/wd/hub"),caps);
+    		 
     	}
 		return driver; // getDriver returns driver , thats why we aren't passing url
     }

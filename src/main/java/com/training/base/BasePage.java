@@ -1,5 +1,7 @@
 package com.training.base;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -19,7 +21,7 @@ public class BasePage
 	
 	public void  explicitwait(int time, WebElement element)
 	{
-		WebDriverWait wait = new WebDriverWait(driver, time);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(time));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 }

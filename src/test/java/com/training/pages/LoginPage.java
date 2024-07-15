@@ -26,7 +26,7 @@ public class LoginPage extends BasePage
 
 	public void enterinemail() 
 	{
-		explicitwait(50,email);
+		explicitwait(200,email);
 		email.sendKeys("admin123@gmail.com");
 	}
 

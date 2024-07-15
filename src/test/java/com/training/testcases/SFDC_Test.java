@@ -25,7 +25,7 @@ public class SFDC_Test extends BaseTest
 	
 	@BeforeMethod
 	@Parameters("browser")
-	public void beforeMethod(@Optional("firefox") String browser) throws IOException
+	public void beforeMethod(@Optional("chrome") String browser) throws IOException
 	{
 		driver= getDriver(browser);
 		url = getUrl();
@@ -70,7 +70,7 @@ public class SFDC_Test extends BaseTest
 	public void tearDown()
 	{
 		//takescreenshot(driver);// pass the driver 
-		driver.close(); 
+		//driver.close(); 
 	}
 
 }
