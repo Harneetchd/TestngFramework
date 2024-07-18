@@ -30,7 +30,7 @@ public class LoginTest extends BaseTest
 	
 	@BeforeMethod
 	@Parameters("browser")
-	public void beforemethod(@Optional("chrome") String browser) throws IOException
+	public void beforemethod(@Optional("firefox") String browser) throws IOException
 	{
 		driver = getDriver(browser); 
 		url = getUrl();

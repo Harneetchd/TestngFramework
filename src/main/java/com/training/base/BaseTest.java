@@ -31,13 +31,13 @@ public class BaseTest
     	if(browser.equalsIgnoreCase("chrome"))
 		{
     		
-    		 DesiredCapabilities caps = new DesiredCapabilities();
-    		 caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
-    		 
-    		 driver = new RemoteWebDriver(new URL("http://3.143.173.157:4444/"),caps);
-    		
-    		//System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
-			//driver = new ChromeDriver();
+//    		 DesiredCapabilities caps = new DesiredCapabilities();
+//    		 caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+//    		 
+//    		 driver = new RemoteWebDriver(new URL("http://3.143.173.157:4444/"),caps);
+//    		
+    		System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
+			driver = new ChromeDriver();
 		}
     	else if(browser.equalsIgnoreCase("firefox"))
     	{
