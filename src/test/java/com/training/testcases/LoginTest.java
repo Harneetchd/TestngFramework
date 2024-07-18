@@ -1,6 +1,7 @@
 package com.training.testcases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -29,7 +30,7 @@ public class LoginTest extends BaseTest
 	
 	@BeforeMethod
 	@Parameters("browser")
-	public void beforemethod(@Optional("firefox") String browser) throws IOException
+	public void beforemethod(@Optional("chrome") String browser) throws IOException
 	{
 		driver = getDriver(browser); 
 		url = getUrl();

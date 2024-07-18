@@ -11,11 +11,7 @@
 </properties>
 
   <dependencies>
-  	<dependency>
-  		<groupId>com.training.maven</groupId>
-  		<artifactId>maventraining</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 <!--<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -84,7 +80,7 @@
 			  <version>3.0.0</version>
 			  <configuration>
 				  <suiteXmlFiles>
-					  <suiteXmlFile>Parallel.xml</suiteXmlFile>
+					  <suiteXmlFile>chrome.xml</suiteXmlFile>
 				  </suiteXmlFiles>
 			  </configuration>
 		  </plugin>

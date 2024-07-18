@@ -2,6 +2,8 @@ package com.training.testcases;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
@@ -64,6 +66,7 @@ public class SFDC_Test extends BaseTest
 		sfdc_loginPage.clickOnLogout();
 		sfdc_loginPage.validateusername();
 	}
+	
 	
 	
 	@AfterMethod

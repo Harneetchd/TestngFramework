@@ -1,5 +1,7 @@
 package lightning.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -17,6 +19,7 @@ public class LoginTest extends BaseTest{
 	LoginPage loginPage;
 	WebDriver driver;
 	String url;
+	
 	
 	@BeforeMethod
 	@Parameters ("browser")
