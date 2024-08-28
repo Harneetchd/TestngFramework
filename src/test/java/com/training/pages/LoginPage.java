@@ -9,11 +9,11 @@ import com.training.base.BasePage;
 
 public class LoginPage extends BasePage 
 {
+	
 	public LoginPage(WebDriver driver) 
 	{
 		super(driver);
 	}
-	
 	// Get Elements and corresponding Actions in Page
 	@FindBy(id = "email_field")
 	WebElement email;
@@ -26,7 +26,7 @@ public class LoginPage extends BasePage
 
 	public void enterinemail() 
 	{
-		explicitwait(200,email);
+		explicitwait(800,email);
 		email.sendKeys("admin123@gmail.com");
 	}
 

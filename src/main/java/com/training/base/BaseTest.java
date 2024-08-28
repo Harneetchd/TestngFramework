@@ -12,7 +12,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -35,13 +37,14 @@ public class BaseTest
 //    		 caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
 //    		 
 //    		 driver = new RemoteWebDriver(new URL("http://3.143.173.157:4444/"),caps);
-//    		
-    		System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
+//   		ChromeOptions 
+    		//System.setProperty("webdriver.chrome.driver","/Users/harneetkaur/eclipse-workspace/TestNGFramework/mydriver/chromedriver");
 			driver = new ChromeDriver();
 		}
     	else if(browser.equalsIgnoreCase("firefox"))
     	{
-    		WebDriverManager.firefoxdriver().setup();
+    		//FirefoxOptions
+    		//WebDriverManager.firefoxdriver().setup();
     		driver = new FirefoxDriver();
     		
     		// DesiredCapabilities caps = new DesiredCapabilities();

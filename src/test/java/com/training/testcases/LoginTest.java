@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest
 {
 	WebDriver driver;
 	LoginPage loginpage;
-	String url;
+	String browserUrl;
 	HomePage homepage;
 	
 	@BeforeMethod
@@ -33,8 +33,8 @@ public class LoginTest extends BaseTest
 	public void beforemethod(@Optional("firefox") String browser) throws IOException
 	{
 		driver = getDriver(browser); 
-		url = getUrl();
-		driver.get(url);
+		browserUrl = getUrl();
+		driver.get(browserUrl);
 		loginpage = new LoginPage(driver);
 	    homepage = new HomePage(driver);
 	    DOMConfigurator.configure("log4j.xml");

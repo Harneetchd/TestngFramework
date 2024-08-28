@@ -8,7 +8,8 @@ public class CommonUtlities
 {
    public String getProperty(String key) throws IOException
    {
-	  String path = "/Users/harneetkaur/eclipse-workspace/TestNGFramework/properties/application.properties";
+	  //String path = "/Users/harneetkaur/eclipse-workspace/TestNGFramework/properties/application.properties";OR
+	  String path = "properties/application.properties";
 	  
 	  FileInputStream fileinput= new FileInputStream(path);
 	  

@@ -9,6 +9,7 @@
     <classes>
       <class name="com.training.testcases.LoginTest">
         <methods>
+          <include name="loginandclickonhometab"/>
           <include name="teardown"/>
           <include name="beforemethod"/>
           <include name="login"/>

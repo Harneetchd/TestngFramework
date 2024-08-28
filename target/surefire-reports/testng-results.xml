@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-17T21:42:04 EDT" name="CrossBrowser" finished-at="2024-07-17T21:42:24 EDT" duration-ms="20209">
+  <suite started-at="2024-08-16T14:01:36 EDT" name="CrossBrowser" finished-at="2024-08-16T14:01:56 EDT" duration-ms="19199">
     <groups>
     </groups>
-    <test started-at="2024-07-17T21:42:04 EDT" name="FirefoxTest" finished-at="2024-07-17T21:42:15 EDT" duration-ms="11014">
+    <test started-at="2024-08-16T14:01:36 EDT" name="FirefoxTest" finished-at="2024-08-16T14:01:48 EDT" duration-ms="11823">
       <class name="com.training.testcases.LoginTest">
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:04 EDT" name="beforemethod" finished-at="2024-07-17T21:42:08 EDT" duration-ms="4098" status="PASS">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:36 EDT" name="beforemethod" finished-at="2024-08-16T14:01:41 EDT" duration-ms="4257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="login()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:08 EDT" name="login" finished-at="2024-07-17T21:42:09 EDT" duration-ms="1237" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:41 EDT" name="login" finished-at="2024-08-16T14:01:42 EDT" duration-ms="1190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:09 EDT" name="teardown" finished-at="2024-07-17T21:42:10 EDT" duration-ms="932" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:42 EDT" name="teardown" finished-at="2024-08-16T14:01:43 EDT" duration-ms="1004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:10 EDT" name="beforemethod" finished-at="2024-07-17T21:42:13 EDT" duration-ms="2822" status="PASS">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:43 EDT" name="beforemethod" finished-at="2024-08-16T14:01:46 EDT" duration-ms="3522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,19 +37,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="loginandclickonhometab()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:13 EDT" name="loginandclickonhometab" finished-at="2024-07-17T21:42:14 EDT" duration-ms="1117" status="PASS">
+        <test-method signature="loginandclickonhometab()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:46 EDT" name="loginandclickonhometab" finished-at="2024-08-16T14:01:47 EDT" duration-ms="1074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginandclickonhometab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-07-17T21:42:14 EDT" name="teardown" finished-at="2024-07-17T21:42:15 EDT" duration-ms="736" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@f5acb9d]" started-at="2024-08-16T14:01:47 EDT" name="teardown" finished-at="2024-08-16T14:01:48 EDT" duration-ms="717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.training.testcases.LoginTest -->
     </test> <!-- FirefoxTest -->
-    <test started-at="2024-07-17T21:42:04 EDT" name="ChromeTest" finished-at="2024-07-17T21:42:24 EDT" duration-ms="20209">
+    <test started-at="2024-08-16T14:01:36 EDT" name="ChromeTest" finished-at="2024-08-16T14:01:56 EDT" duration-ms="19198">
       <class name="com.training.testcases.LoginTest">
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:04 EDT" name="beforemethod" finished-at="2024-07-17T21:42:13 EDT" duration-ms="9531" status="PASS">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:36 EDT" name="beforemethod" finished-at="2024-08-16T14:01:44 EDT" duration-ms="7193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="login()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:13 EDT" name="login" finished-at="2024-07-17T21:42:16 EDT" duration-ms="2395" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:44 EDT" name="login" finished-at="2024-08-16T14:01:46 EDT" duration-ms="2826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:16 EDT" name="teardown" finished-at="2024-07-17T21:42:16 EDT" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:46 EDT" name="teardown" finished-at="2024-08-16T14:01:47 EDT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:16 EDT" name="beforemethod" finished-at="2024-07-17T21:42:22 EDT" duration-ms="5366" status="PASS">
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:47 EDT" name="beforemethod" finished-at="2024-08-16T14:01:53 EDT" duration-ms="6280" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="loginandclickonhometab()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:22 EDT" name="loginandclickonhometab" finished-at="2024-07-17T21:42:24 EDT" duration-ms="2141" status="PASS">
+        <test-method signature="loginandclickonhometab()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:53 EDT" name="loginandclickonhometab" finished-at="2024-08-16T14:01:55 EDT" duration-ms="2206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginandclickonhometab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-07-17T21:42:24 EDT" name="teardown" finished-at="2024-07-17T21:42:24 EDT" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@5f9b2141]" started-at="2024-08-16T14:01:55 EDT" name="teardown" finished-at="2024-08-16T14:01:56 EDT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
